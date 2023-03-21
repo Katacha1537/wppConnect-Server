@@ -70,6 +70,6 @@ async function start(client){
     })
 }
 
-server.listen(port, function(){
+server.listen(process.env.PORT || port, function(){
     console.log('BotKatacha rodando na porta: '+port)
 })
