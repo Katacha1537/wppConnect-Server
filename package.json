@@ -6,10 +6,10 @@
     "request": "^2.88.2"
   },
   "name": "n8nWpp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "app-n8n.js",
   "scripts": {
-    "start": "node app-n8n.js"
+    "start": "node --no-sandbox app-n8n.js"
   }
 }
